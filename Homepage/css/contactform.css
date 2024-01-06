@@ -1,0 +1,129 @@
+body {
+    background:#e7eff9;
+  
+  }
+  
+  .rectangle {
+    box-shadow: 0px 0px 15px 2px black;
+    position: absolute;
+     z-index: -1;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 1000px;
+    height: 650px;
+    background:white;
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    
+  }
+  
+  .text-shape-orange {
+    margin-top: -1px;
+    margin-left: 653px;
+    width: 300px;
+    height: 220px;
+    background: orangered;
+    padding-left: 50px;
+    border-radius: 10px;
+    
+  }
+  .font-size{
+    font-size: 35px;
+    text-align: right;
+    color: white;
+  }
+  
+  .contact-img {
+    padding-left: 450px;
+    margin-top: 80px;
+    height: 350px;
+    width: 650px;
+  
+  
+  }
+  
+  .text-white {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .contact-img-girl {
+    margin-bottom: -10px;
+  }
+  .contact-form {
+    padding-left: 300px;
+    padding-top: 150px;
+    position: fixed;
+  }
+  
+  form {
+  
+    width: 300px;
+    margin-left: 20px;
+  
+  }
+  
+  form label {
+    display: flex;
+    margin-top: 20px;
+    font-size: 18px;
+    color: #878787;
+  }
+  
+  form input {
+    width: 130%;
+    padding: 10px;
+    border: none;
+    border: 1px solid gray;
+    border-radius: 20px;
+    outline: none;
+  }
+  form select {
+    width: 135%;
+    padding: 10px;
+    border: none;
+    border: 1px solid gray;
+    border-radius: 20px;
+    outline: none;
+  }
+  form option {
+    width: 135%;
+    padding: 10px;
+    border: none;
+    border: 1px solid gray;
+    border-radius: 20px;
+    outline: none;
+  }
+  form select:hover {
+    box-shadow: 0 0 15px #6764e2;
+  }
+  form input:hover {
+    box-shadow: 0 0 15px #6764e2;
+  }
+  form textarea:hover {
+    border-radius: 15px;
+    box-shadow: 0 0 15px #6764e2;
+  
+  }
+  
+  
+  button {
+    width: 200px;
+    height: 35px;
+    margin-top: 20px;
+    padding-top: 20px;
+    border: none;
+    background-color: blue;
+    color: white;
+    font-size: 18px;
+    cursor: pointer;
+    border-radius: 6px;
+  }
+  
+  button:hover {
+    color: rgb(7, 1, 1);
+    background: rgb(0, 238, 255)
+  }
+  

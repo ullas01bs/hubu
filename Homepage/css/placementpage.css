@@ -1,0 +1,26 @@
+body {
+    background-color: #e7eff9;
+}
+
+.placement-note {
+    margin-top: 10%;
+    background-color: white;
+    height: 700px;
+    width: 80%;
+    margin-left: 200px;
+    padding-left: 20px;
+    border-radius: 30px;
+    font-size: 20px;
+}
+.placement-job-note-{
+    margin-top: -150px;
+}
+.placement-img{
+    padding-top: 20px;
+    height: 300px;
+    width: 200px;
+    margin-left: 80%;
+}
+.placement-img-right{
+    margin-left: 10px;
+}
